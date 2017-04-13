@@ -1,0 +1,59 @@
+Scratch-server-master:
+
+Opstarten server op server (192.168.1.7) en op client (192.168.1.7)
+cd "C:\CoderDojo\SCRATCH\Scratch extensions\Scratch-Server-master"
+"c:\program files\nodejs\node" start.js
+
+=> server running at http://localhost:4440
+
+
+start.js
+========
+-> referentie naar extension_PingPong.json
+-> server.setIp('192.168.1.7')
+    IP adres van master laptop / server
+server.start()
+	
+Extension_Pingpong.json (client)
+=======================
+-> extension name
+-> extensionPort: 4440
+-> host: ip-adress van server
+-> useHTTP : true
+-> blockSpecs
+
+Opladen in scratch via shift+file
+-> import experimental http extension
+
+=> extra blokken
+
+package.js
+==========
+Info: gebeurt niks mee?
+
+server.js
+=========
+Variablelen:
+http, url, fs
+OtherIP, 
+
+Functies
+========
+function handleRequest(req, res) {
+Read properties: 
+=> other properties
+
+=> Poll
+
+Set properties
+
+function sendRequest(property, value) {
+
+    
+	http.get(options).on('error', function (e) {
+function start() {
+function addMyProperty(prop) {
+function addOtherProperty(prop) {
+function setIp(ip) {
+function setPort(p) {
+function setupWithExtension(filepath, next) {

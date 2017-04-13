@@ -1,0 +1,9 @@
+{
+    "name": "Scratch - server",
+    "description": "Scratch Multiplayer Server",
+    "readme": "",
+    "repository": "https://github.com/GlennGeenen/Scratch-Server.git",
+    "version": "0.0.1",
+    "dependencies": {},
+    "devDependencies": {}
+}
