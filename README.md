@@ -13,7 +13,7 @@ Update ip-address for host in start.js
 	server.setIp('192.168.1.8');
 
 Download node js
-"c:\program files\nodejs\node" start.js
+Execute nodejs on start.js ("c:\program files\nodejs\node" start.js)
 
 Run bat-file or execute these commands in cmd:
 cd "C:\Gebruiker\admin\desktop\PingPong-Server" (or folder with server.js, start.js, extenstion_server.json, package.json)
