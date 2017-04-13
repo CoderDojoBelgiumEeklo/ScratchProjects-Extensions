@@ -1,0 +1,20 @@
+{
+    "extensionName": "ScratchPingPong",
+	"useHTTP":true,
+	"host": "192.168.1.8",
+    "extensionPort": 4440,
+    "blockSpecs": [
+        [" ", "bal X is %n", "my_xbal"],
+        [" ", "bal Y is %n", "my_ybal"],
+        ["r", "X voor bal", "other_xbal"],
+		["r", "Y voor bal", "other_ybal"],
+		[" ", "Speler1 x is %n", "my_x1"],
+        [" ", "Speler1 y is %n", "my_y1"],
+        ["r", "Speler1 X", "other_x1"],
+        ["r", "Speler1 Y", "other_y1"],
+		[" ", "Speler2 x is %n", "my_x2"],
+        [" ", "Speler2 y is %n", "my_y2"],
+        ["r", "Speler2 X", "other_x2"],
+        ["r", "Speler2 Y", "other_y2"]
+    ]
+}
