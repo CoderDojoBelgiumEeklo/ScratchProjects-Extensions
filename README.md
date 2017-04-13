@@ -26,7 +26,8 @@ Edit extenstion < extension_PingPong.json > and update host to server ip-adress:
 	"host": "192.168.1.2": ip-address server
 
 shift + File > Import experimental HTTP extension
-Load the extension_PingPong.json by holding shift and pressing File -> Import experimental HTTP extension.
+Load the extension_PingPong.json by holding shift and pressing File 
+-> Import experimental HTTP extension.
 => < extension_PingPong.json >
 
 extra blocks from blockspecifications in extension file are available under more blocks.
@@ -44,8 +45,8 @@ Load the extension.json by holding shift and pressing File -> Import experimenta
 Scratch projects for PingPong
 =============================
 
-On server with speler1: PingPong_Server.sb2
-On client with speler2: PingPong_Client.sb2
+-> On server with speler1: PingPong_Server.sb2
+-> On client with speler2: PingPong_Client.sb2
 
 These are sample projects in which you can use these cloud variables to implement a pingPong game.
 Some initial scripts to move bal, and 'spelers' are available. May be stripped down to use in Coderdojo or may be used as is to learn the concept of cloud (server).
