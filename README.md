@@ -61,3 +61,5 @@ For new extensions update start.js
    
 For updated json files it might be necessary to rebuild the script in scratch to use the correct file and variables.
  
+When there are problems to connect, ping, ... to other PC, you might have to disable the firewall on the server.
+To check the connection, you may use http://ip-address:port/poll(ex htt://192.168.1.2:4440/poll
