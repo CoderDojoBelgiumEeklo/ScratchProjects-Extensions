@@ -8,9 +8,7 @@ Started from that and used to define 'cloudserver' (added host in extension!!!)
 
 Start SERVER
 ============
-Edit start.js
-Update ip-address for host in start.js
-	server.setIp('192.168.1.8');
+Edit start.js > Update ip-address for host in start.js >> server.setIp('192.168.1.8');
 
 Download node js
 Execute nodejs on start.js ("c:\program files\nodejs\node" start.js)
@@ -22,8 +20,8 @@ cd "C:\Gebruiker\admin\desktop\PingPong" (or folder with server.js, start.js, ex
 Scratch projects on 2 laptops: import extension
 ===============================================
 Edit extenstion < extension.json > and update host to server ip-adress:
-	"useHTTP":true,
-	"host": "192.168.1.2": ip-address server
+"useHTTP":true,
+"host": "192.168.1.2": ip-address server
 
 Load the extension.json by holding shift and pressing File 
 -> Import experimental HTTP extension.
