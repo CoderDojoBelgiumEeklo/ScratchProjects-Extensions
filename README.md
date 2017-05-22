@@ -20,18 +20,17 @@ cd "C:\Gebruiker\admin\desktop\PingPong" (or folder with server.js, start.js, ex
 Scratch projects on 2 laptops: import extension
 ===============================================
 Edit extenstion < extension.json > and update host to server ip-adress:
-"useHTTP":true,
-"host": "192.168.1.2": ip-address server
+	"useHTTP":true,
+	"host": "192.168.1.2": ip-address server
 
 Load the extension.json by holding shift and pressing File 
--> Import experimental HTTP extension.
+	-> Import experimental HTTP extension.
 => < extension.json >
 
 extra blocks from blockspecifications in extension file are available under more blocks.
 
 Scratch projects for PingPong
 =============================
-
 -> Project for Sebastiaan
 -> Project for Francis
 
