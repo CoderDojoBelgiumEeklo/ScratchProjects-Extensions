@@ -37,11 +37,12 @@ Edit extension < extension_PingPong.json > and update host to server ip-adress:
 	"useHTTP":true,
 	"host": "192.168.1.5": ip-address server
 
-shift + File > Import experimental HTTP extension
-<br>
-Load the extension_PingPong.json by holding shift and pressing File -> Import experimental HTTP extension.
-<br>
-=> < extension.json >
+Load extension in scratch:
+	shift + File > Import experimental HTTP extension
+	<br>
+	Load the extension_PingPong.json by holding shift and pressing File -> Import experimental HTTP extension.
+	<br>
+	=> < extension.json >
 
 Extra blocks from blockspecifications in extension file are available under more blocks.
 With these blocks scratch can define and read the cloud variables needed for the ping pong game.
