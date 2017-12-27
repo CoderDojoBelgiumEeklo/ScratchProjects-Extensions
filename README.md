@@ -26,6 +26,7 @@ To start the server run the bat-file or execute these commands in cmd:
 The server is running in cmd:
 <br>
 C:\Coolest PingPong>"c:\program files\nodejs\node" start.js
+<br>
 Server running at http://192.168.1.5/4440
 
 Extension to use the cloud variables server and on client laptop: extension
@@ -37,7 +38,9 @@ Edit extension < extension_PingPong.json > and update host to server ip-adress:
 	"host": "192.168.1.5": ip-address server
 
 shift + File > Import experimental HTTP extension
+<br>
 Load the extension_PingPong.json by holding shift and pressing File -> Import experimental HTTP extension.
+<br>
 => < extension.json >
 
 Extra blocks from blockspecifications in extension file are available under more blocks.
