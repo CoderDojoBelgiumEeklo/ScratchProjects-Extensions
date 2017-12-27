@@ -34,10 +34,13 @@ Extension to use the cloud variables server and on client laptop: extension
 To enable scratch to use the server from both laptops, you need to load the extension (extension.json) in scratch. Before you load the extension you need to set the ip-address of the server laptop.
 
 Edit extension < extension_PingPong.json > and update host to server ip-adress:
+	<br>
 	"useHTTP":true,
+	<br>
 	"host": "192.168.1.5": ip-address server
 
 Load extension in scratch:
+	<br>
 	shift + File > Import experimental HTTP extension
 	<br>
 	Load the extension_PingPong.json by holding shift and pressing File -> Import experimental HTTP extension.
