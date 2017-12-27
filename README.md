@@ -1,7 +1,7 @@
 Ping Pong as connected multiplayer scratch projects using an extension.
 ===========================================================
 
- Scratch projects on 2 laptops / PCs which are connected - over WIFI or over Ethernet cable - can read and set variables. Using these variables i na project a game in multiplayer mode can be defined. One of the 2 laptops is running as server to manage shared variables (~cloud variables in scratch online). On both laptops a scratch project is defined. These projects use the cloud variables for a ping pong game. This concept can bes used for other game ideas. 
+ Scratch projects on 2 laptops / PCs which are connected - over WIFI or over Ethernet cable - can read and set variables. Using these variables in a scratch project a game in multiplayer mode can be defined. One of the 2 laptops is running as server to manage shared variables (~cloud variables in scratch online). On both laptops a scratch project is defined. These projects use the cloud variables for a ping pong game. This concept can bes used for other game ideas. 
 
 Here you can find the scratch projects, stratch extension, ... and information on how to use this concept for a Ping pong game.
 
@@ -10,8 +10,8 @@ Here you can find the scratch projects, stratch extension, ... and information o
 A http-extension is only supported in scratch 2 offline editor. Via cloud variables in scratch online you can set up a similar multiplayer game, but you need a performant internet connection.
 
 
-This project uses the Scratch Multiplayer Server in node.js that is elaborated in  https://github.com/GlennGeenen/Scratch-Server
-This project is started uses this Scratch-server to define a 'cloudserver' (I added host in the extension file to enable connecting to other computers!!!)
+This project uses the Scratch Multiplayer Server in node.js that is elaborated in  https://github.com/GlennGeenen/Scratch-Server.
+This project used this Scratch-server to implement a 'cloudserver' (I added host in the extension file to enable connecting to other computers!!!)
 
 
 Start SERVER
@@ -19,11 +19,12 @@ Start SERVER
 To start the server node js is needed, it is available for download at https://nodejs.org/en/download/. To configure the laptop / PC as server you need to update the ip-addres in the start.js file to the ip-address of the 'server'
  
 To start the server run the bat-file or execute these commands in cmd:
-cd "C:\Gebruiker\admin\desktop\PingPong-Server" (or folder with server.js, start.js, extenstion_server.json, package.json)
-"c:\program files\nodejs\node" start.js
 
-The server is running in cmd 
+	cd "C:\Gebruiker\admin\desktop\PingPong-Server" (or folder)
+	"c:\program files\nodejs\node" start.js
 
+The server is running in cmd:
+<br>
 C:\Coolest PingPong>"c:\program files\nodejs\node" start.js
 Server running at http://192.168.1.5/4440
 
