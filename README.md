@@ -1,8 +1,12 @@
-Ping pong in multiplayer game using an extension: 2 laptops which are connected over WIFI or over Ethernet cable can communicate and play a game in multiplayer mode. One of the 2 laptops is running as server to manage shared variables (~cloud variables in scratch online). On both laptops a scratch project is defined and uses the cloud variables for a ping pong game or other game ideas. 
+Ping Pong as connected multiplayer scratch projects using an extension.
+===========================================================
+
+ Scratch projects on 2 laptops / PCs which are connected - over WIFI or over Ethernet cable - can read and set variables. Using these variables i na project a game in multiplayer mode can be defined. One of the 2 laptops is running as server to manage shared variables (~cloud variables in scratch online). On both laptops a scratch project is defined. These projects use the cloud variables for a ping pong game. This concept can bes used for other game ideas. 
 
 Here you can find the scratch projects, stratch extension, ... and information on how to use this concept for a Ping pong game.
 
 ============
+
 A http-extension is only supported in scratch 2 offline editor. Via cloud variables in scratch online you can set up a similar multiplayer game, but you need a performant internet connection.
 
 
