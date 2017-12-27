@@ -1,0 +1,22 @@
+{
+    "extensionName": "ScratchPingPong - multiplayer",
+	"useHTTP":true,
+	"host": "192.168.1.5",
+    "extensionPort": 4440,
+    "blockSpecs": [
+        [" ", "Score is %n", "zet_score"],
+        ["r", "Score", "lees_score"],
+        [" ", "Mario's x is %n", "zet_xmario"],
+        [" ", "Mario's y is %n", "zet_ymario"],
+        ["r", "Mario x", "lees_xmario"],
+		["r", "Mario y", "lees_ymario"],
+		[" ", "Pong x is %n", "zet_xPong"],
+        [" ", "Pong y is %n", "zet_yPong"],
+        ["r", "Pong X", "lees_xPong"],
+        ["r", "Pong Y", "lees_yPong"],
+		[" ", "Ping x is %n", "zet_xPing"],
+        [" ", "Ping y is %n", "zet_yPing"],
+        ["r", "Ping X", "lees_xPing"],
+        ["r", "Ping Y", "lees_yPing"]
+    ]
+}
